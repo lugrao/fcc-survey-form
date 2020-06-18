@@ -4,6 +4,7 @@ html {
 
 body {
   display: grid;
+  grid-template-columns: 1fr;
   margin: 0;
   font-family: "Raleway", sans-serif;
   color: white;
@@ -31,7 +32,6 @@ body {
 }
 
 form {
-  width: 30rem;
   justify-self: center;
   padding: 1.5rem 3rem 4rem;
   margin: 1rem auto 3rem;
@@ -44,6 +44,7 @@ form {
 #improvements,
 #user-suggestions {
   display: grid;
+  grid-template-columns: 1fr;
   padding: 1rem 0;
 }
 
