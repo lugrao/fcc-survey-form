@@ -25,6 +25,7 @@ body {
 #title,
 #description {
   justify-self: center;
+  padding: 0 2rem;
 }
 
 #title {
